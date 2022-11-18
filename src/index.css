@@ -1,0 +1,26 @@
+body,h1,h2,h3,h4,h5,h6,p,span{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.Main{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.left-container{
+  width: 70vh;
+  height: calc(90vh - 4px);
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.right-container{
+  width: 70vh;
+  height: 90vh;
+  border: 1px solid black;
+  background-color: #aab2b3;
+  text-transform: capitalize;
+}
